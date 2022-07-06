@@ -2,7 +2,7 @@ import './../css/styles.css';
 import { Notify } from 'notiflix';
 import { GetPixabayApi } from './getPixabay';
 import SimpleLightbox from "simplelightbox";
-// import 'simplelightbox/dist/simple-lightbox.min.css';
+import "simplelightbox/dist/simple-lightbox.min.css"
 
 const galleryRef = document.querySelector('.gallery');
 const formRef = document.querySelector('.search-form');
